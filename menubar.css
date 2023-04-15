@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clear{
+  content: '';
+  display: block;
+  clear: both;
+}
+.nav{
+  background-color: #944;
+  padding: 10px;
+  margin-bottom: 2px;
+  font-size: 25px;
+  
+}
+
+.nav ul li {
+text-align: center;
+   margin:0px;
+list-style: none;
+
+}
+
+.nav ul li a{
+  text-decoration: none;
+  color: white;
+
+}
+.nav ul li ul{
+  position: absolute;
+  display: none;
+  margin: 3px;
+    font-size: 20px;
+    background-color: #944 ;
+  
+}
+.sub-menu ul li{
+  margin: 0px;
+}
+.nav ul li:hover ul{
+  display: inline-block;
+  margin: 0px;
+}
